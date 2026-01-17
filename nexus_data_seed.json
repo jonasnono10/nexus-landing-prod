@@ -1,0 +1,108 @@
+{
+  "plans": [
+    {
+      "name": "Teste (3 Dias)",
+      "price": "Grátis",
+      "period": "3 dias",
+      "description": "Acesso total para experimentar a sinergia dos agentes.",
+      "access_level": "Free",
+      "features": [
+        "Acesso Total por 72 horas",
+        "Experimente os 30+ Gens",
+        "Sem compromisso",
+        "Ideal para Curiosos e Leads"
+      ],
+      "active": true
+    },
+    {
+      "name": "Individual",
+      "price": "49.90",
+      "period": "mês",
+      "description": "Escolha 1 Especialista fixo para resolver uma dor única.",
+      "access_level": "Individual",
+      "features": [
+        "Escolha 1 Gen Fixo",
+        "Acesso Ilimitado a esse Gen",
+        "Histórico Básico",
+        "Ideal para MEI"
+      ],
+      "active": true
+    },
+    {
+      "name": "Lite",
+      "price": "100.00",
+      "period": "mês",
+      "description": "Pacote essencial para pequenos negócios.",
+      "access_level": "Lite",
+      "features": [
+        "Acesso a 5 Agentes Básicos",
+        "Inclui: Adminix, Mkt Digital, etc.",
+        "Suporte via Comunidade",
+        "Ideal para Pequenos Negócios"
+      ],
+      "active": true
+    },
+    {
+      "name": "Pro (Combo)",
+      "price": "250.00",
+      "period": "mês",
+      "description": "O Carro-Chefe. Todos os agentes + Supervisor Nexus.",
+      "access_level": "Pro",
+      "features": [
+        "Acesso a TODOS os 30+ Gens",
+        "Supervisor Nexus (Combos)",
+        "Gens em Modo Turbo",
+        "O seu 'Carro-Chefe'"
+      ],
+      "active": true
+    },
+    {
+      "name": "Enterprise",
+      "price": "500.00",
+      "period": "mês",
+      "description": "Para empresas e franquias que buscam escala.",
+      "access_level": "Enterprise",
+      "features": [
+        "Suporte Prioritário",
+        "Agentes de Expansão e Segurança",
+        "Múltiplos Usuários",
+        "API Dedicada"
+      ],
+      "active": true
+    }
+  ],
+  "agents": [
+    {
+      "gen_id": "clothmaster",
+      "name": "ClothMaster",
+      "role": "Especialista em Moda",
+      "category": "Moda",
+      "access_level": "Free",
+      "system_prompt": "COLE AQUI A INSTRUÇÃO DO CLOTHMASTER..."
+    },
+    {
+      "gen_id": "ecommaster",
+      "name": "EcomMaster",
+      "role": "Especialista em Vendas Online",
+      "category": "Vendas",
+      "access_level": "Free",
+      "system_prompt": "COLE AQUI A INSTRUÇÃO DO ECOMMASTER..."
+    },
+    {
+      "gen_id": "promoplanner",
+      "name": "PromoPlanner",
+      "role": "Especialista em Planejamento de Marketing",
+      "category": "Marketing",
+      "access_level": "Free",
+      "system_prompt": "COLE AQUI A INSTRUÇÃO DO PROMOPLANNER..."
+    },
+    {
+      "gen_id": "supervisor_nexus",
+      "name": "Supervisor Nexus",
+      "role": "Coordenador de Agentes (Combos)",
+      "category": "Supervisor",
+      "access_level": "Pro",
+      "system_prompt": "COLE AQUI A INSTRUÇÃO DO SUPERVISOR NEXUS..."
+    }
+  ]
+}

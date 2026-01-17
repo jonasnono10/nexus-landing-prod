@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  nexus-landing:
+    image: nexus-landing-app
+    build: .
+    container_name: nexus_landing_v2
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Mude este IP para o IP real do seu servidor n8n
+      - NEXT_PUBLIC_N8N_WEBHOOK_URL=http://72.62.142.199:5678/webhook-test/nexus-hub-trigger-v2
